@@ -1,0 +1,24 @@
+{
+  "name": "ole",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development C:NodeJs\node_modules/.bin/ts-node ./server/server.ts"
+  },
+  "author": "gleidston",
+  "license": "ISC",
+  "description": "uma api para gerenciar os contatinhos ",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.22",
+    "body-parse": "^0.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
